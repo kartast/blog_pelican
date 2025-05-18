@@ -2,7 +2,7 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 {% block content %}
 <ul>
-{% for article in articles|sort(attribute='date', reverse=true) %}
+{% for article in articles|sort(attribute='date') %}
     <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
 {% endfor %}
 </ul>
