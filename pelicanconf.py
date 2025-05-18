@@ -1,5 +1,5 @@
-AUTHOR = 'Your Name'
-SITENAME = 'My Blog'
+AUTHOR = 'Karta Sutanto'
+SITENAME = "Karta Sutanto's Blog"
 SITEURL = ''
 
 PATH = 'content'
