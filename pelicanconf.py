@@ -12,3 +12,4 @@ THEME = 'themes/barebones'
 # Output directory
 OUTPUT_PATH = 'output/'
 
+DEFAULT_PAGINATION = False
