@@ -6,7 +6,7 @@ This repository contains a minimal setup for a static site generated with [Pelic
 
 1. Install dependencies (Pelican):
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 2. Generate the site:
    ```bash
@@ -19,7 +19,7 @@ The configuration can be found in `pelicanconf.py` and the example article is in
 ## Deploying to Vercel
 
 1. Add this repository to Vercel.
-2. Vercel will use the `vercel.json` configuration to install dependencies with `pip`, run `pelican content`, and serve the `output/` directory as the static site.
+2. Vercel will use the `vercel.json` configuration to install dependencies with `pip3`, run `pelican content`, and serve the `output/` directory as the static site.
 
 The included `index.md` page provides a simple home page for the site.
 
