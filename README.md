@@ -8,11 +8,15 @@ This repository contains a minimal setup for a static site generated with [Pelic
    ```bash
    pip3 install -r requirements.txt
    ```
-2. Generate the site:
+2. Download the [Flex theme](https://github.com/alexandrevicenzi/Flex) into the `themes/` directory:
+   ```bash
+   git clone https://github.com/alexandrevicenzi/Flex themes/Flex
+   ```
+3. Generate the site:
    ```bash
    pelican content
    ```
-3. Preview the output by serving the generated `output/` directory with your preferred web server.
+4. Preview the output by serving the generated `output/` directory with your preferred web server.
 
 The configuration can be found in `pelicanconf.py` and the example article is in `content/welcome.md`.
 
