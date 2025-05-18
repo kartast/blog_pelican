@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pelican content",
+  "installCommand": "pip install -r requirements.txt",
+  "outputDirectory": "output"
+}
